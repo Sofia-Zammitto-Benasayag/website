@@ -14,21 +14,27 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="./images/sprite.svg#snap"></use>
-        </svg>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim
+        neque tenetur odit porro dolor totam minus temporibus sed praesentium?
+      </p>
+    </blockquote>
+    <footer>
+      <div class="media">
+        <div class="media__image">
+          <svg class="icon icon--primary quote__line">
+            <use xlink:href="./images/sprite.svg#line"></use>
+          </svg>
+        </div>
+        <div class="media__body">
+          <h3 clas="media__title quote__author">Sam Smith</h3>
+          <p class="quote__company">
+            SOLID Ventures
+          </p>
+        </div>
       </div>
-      <div class="media__body">
-        <h3 clas="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod aperiam
-          vel eum atque, dolor vitae culpa neque iusto corrupti itaque?
-        </p>
-      </div>
-    </div>
-
+    </footer>
     <div id="app"></div>
     <script src="src/index.js"></script>
   </body>
